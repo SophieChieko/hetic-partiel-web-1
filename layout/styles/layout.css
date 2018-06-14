@@ -1328,3 +1328,24 @@ table a,
 	}
 }
 
+/*Corrections*/
+.footer-button{
+	transition-property: color;
+	transition-duration: 300ms;
+}
+
+.footer-button:hover{
+	color: black;
+}
+
+.button-submit{
+	transition-property: background-color, border;
+	transition-duration: 300ms;
+}
+
+.button-submit:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+
+}
+
